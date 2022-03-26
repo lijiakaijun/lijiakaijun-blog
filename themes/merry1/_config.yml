@@ -1,0 +1,52 @@
+# 此处为邮箱头像的url
+avatar: /favicon.webp
+
+# 标题下的链接
+links:
+#  Github: https://github.com
+  关于: /about/
+  网站更新: /update/
+  友链: /friends/
+  喜欢的: /like/
+  Pay: /pay/
+  其他: /others/
+  留言: /contact/
+
+# Google Analytics
+ga: 'UA-147974252-3'
+# Baidu Analytics
+bt:
+# Cloudflare Analytics
+cf: 4dee8f9b4def41f0807f65dc9574fd31
+# search verify
+google: jOi4iM44VrK4ENrdczDx_VtNqHH22-OANeJ79eH_nC8
+baidu:
+bing: 37B06BA3B108C8529420F89DC3BD917C
+
+# footer
+footer: '主题刚换还没来得及完善，评论什么的后面再说<br /><a href="https://icp.gov.moe" target="_blank">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20215956" target="_blank"> 20215956号</a><br />采用 CC BY-NC-SA 4.0 许可协议，著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。'
+
+# DisqusJS
+disqusjs:
+  shortname: lijiakaijun
+  sitename: lijiakaijun
+  api: https://disqus.skk.moe/disqus/
+  apikey: KMU16gOxMF4AX6Is5aKv5O2x8iLiIWY8tVhaokv6vY1KTR9JUrcLCXGxKpuLEDJu
+  admin: lijiakaijun
+  adminlabel: lijia
+
+# Waline
+waline:
+  app_id: GKbU6pAC42Hgci3yzuNYNn0w-MdYXbMMI
+  app_key: OJ56tftp292ntCQW5iLWQboE
+  visitor: false
+  serverURL: https://pl-lijiakaijun.vercel.app/
+
+# 仓库编辑
+github:
+  username: lijiajunljj
+  repo: lijiakaijun-blog
+  branches: master
+  
+# katex
+katex: false

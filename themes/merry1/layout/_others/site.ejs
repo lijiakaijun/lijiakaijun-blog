@@ -1,0 +1,36 @@
+ <% if (theme.google) { %>
+      <meta name="google-site-verification" content="<%- theme.google %>" />
+    <% } %>
+    <% if (theme.baidu) { %>
+      <meta name="baidu-site-verification" content="<%- theme.baidu %>" />
+    <% } %>
+    <% if (theme.bing) { %>
+      <meta name="msvalidate.01" content="<%- theme.bing %>" />
+    <% } %>
+    <% if (theme.bt) { %>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?<%- theme.bt %>";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    <% } %>
+<% if(theme.ga){ %>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=<%= theme.ga %>"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', '<%= theme.ga %>');
+  </script>
+  <% } %>
+  
+<% if(theme.cf){ %>
+<!-- Cloudflare Web Analytics --><script defer src='https://winter-dew-0514.lijiajunljj-fxdl.workers.dev/beacon.min.js' data-cf-beacon='{"token": "<%= theme.cf %>"}'></script><!-- End Cloudflare Web Analytics -->
+<% } %>

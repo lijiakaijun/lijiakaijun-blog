@@ -1,0 +1,160 @@
+<br />
+<p>
+  点击切换到：<a class="comments-type active">Disqusjs</a> | <a class="comments-type">Waline</a> 评论系统&nbsp;&nbsp;<a href="http://github.com/<%- theme.github.username%>/<%- theme.github.repo%>/edit/<%- theme.github.branches%>/source/<%- page.source %>"><i class="fa fa-pencil-square-o" aria-hidden="true"></a>
+</p>
+<script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+<style>
+  .comments-mode {
+    display:none
+  }
+  .comments-type.active {
+    background-color:#ff0
+  }
+  .show {
+    display:block
+  }
+</style>
+
+<div class="comments-mode show">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqusjs.css">
+<script src="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqus.js"></script>
+    <div id="disqus_thread"></div>
+<script>
+       window.DISQUS=null,new DisqusJS({
+            shortname: '<%- theme.disqusjs.shortname %>',
+            siteName: '<%- theme.disqusjs.sitename %>',
+            api: '<%- theme.disqusjs.api %>',
+            apikey: '<%- theme.disqusjs.apikey %>',
+            admin: '<%- theme.disqusjs.admin %>',
+            adminLabel: '<%- theme.disqusjs.adminlabel %>'
+    });
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://github.com/SukkaW/DisqusJS">comments powered by DisqusJS.</a></noscript>
+</div>
+
+<div class="comments-mode">
+<div id="v-comments" class="post-comments"></div>
+<script>
+    new Waline({
+        el: '#v-comments',
+        appId: '<%- theme.waline.app_id %>',
+        appKey: '<%- theme.waline.app_key %>',
+        serverURL: '<%- theme.waline.serverURL %>', 
+        login: 'disable', 
+        requiredMeta: ['nick'], 
+        placeholder: '评论提交可能有点慢，图片请自行上传到图床XD', 
+        emojiCDN: '//liliakaijun-pic.vercel.app/emote/',
+        emojiMaps: {
+            tv_doge: '6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.webp',
+            tv_亲亲: 'a8111ad55953ef5e3be3327ef94eb4a39d535d06.webp',
+            tv_偷笑: 'bb690d4107620f1c15cff29509db529a73aee261.webp',
+            tv_再见: '180129b8ea851044ce71caf55cc8ce44bd4a4fc8.webp',
+            tv_冷漠: 'b9cbc755c2b3ee43be07ca13de84e5b699a3f101.webp',
+            tv_发怒: '34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.webp',
+            tv_发财: '34db290afd2963723c6eb3c4560667db7253a21a.webp',
+            tv_可爱: '9e55fd9b500ac4b96613539f1ce2f9499e314ed9.webp',
+            tv_吐血: '09dd16a7aa59b77baa1155d47484409624470c77.webp',
+            tv_呆: 'fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.webp',
+            tv_呕吐: '9f996894a39e282ccf5e66856af49483f81870f3.webp',
+            tv_困: '241ee304e44c0af029adceb294399391e4737ef2.webp',
+            tv_坏笑: '1f0b87f731a671079842116e0991c91c2c88645a.webp',
+            tv_大佬: '093c1e2c490161aca397afc45573c877cdead616.webp',
+            tv_大哭: '23269aeb35f99daee28dda129676f6e9ea87934f.webp',
+            tv_委屈: 'd04dba7b5465779e9755d2ab6f0a897b9b33bb77.webp',
+            tv_害羞: 'a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.webp',
+            tv_尴尬: '7cfa62dafc59798a3d3fb262d421eeeff166cfa4.webp',
+            tv_微笑: '70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.webp',
+            tv_思考: '90cf159733e558137ed20aa04d09964436f618a1.webp',
+            tv_惊吓: '0d15c7e2ee58e935adc6a7193ee042388adc22af.webp',
+            doge: '3087d273a78ccaff4bb1e9972e2ba2a7583c9f11.webp', 
+            微笑: '685612eadc33f6bc233776c6241813385844f182.webp', 
+            OK: '4683fd9ffc925fa6423110979d7dcac5eda297f4.webp', 
+            妙啊: 'b4cb77159d58614a9b787b91b1cd22a81f383535.webp', 
+            辣眼睛: '35d62c496d1e4ea9e091243fa812866f5fecc101.webp', 
+            吃瓜: '4191ce3c44c2b3df8fd97c33f85d3ab15f4f3c84.webp', 
+            滑稽: 'd15121545a99ac46774f1f4465b895fe2d1411c3.webp', 
+            打call: '431432c43da3ee5aab5b0e4f8931953e649e9975.webp', 
+            歪嘴: '4384050fbab0586259acdd170b510fe262f08a17.webp', 
+            笑哭: 'c3043ba94babf824dea03ce500d0e73763bf4f40.webp', 
+            脱单doge: 'bf7e00ecab02171f8461ee8cf439c73db9797748.webp', 
+            疑惑: 'b7840db4b1f9f4726b7cb23c0972720c1698d661.webp', 
+            嫌弃: 'de4c0783aaa60ec03de0a2b90858927bfad7154b.webp', 
+            惊讶: 'f8e9a59cad52ae1a19622805696a35f0a0d853f3.webp', 
+            捂脸: '6921bb43f0c634870b92f4a8ad41dada94a5296d.webp', 
+            无语: '44667b7d9349957e903b1b62cb91fb9b13720f04.webp', 
+            大笑: 'ca94ad1c7e6dac895eb5b33b7836b634c614d1c0.webp', 
+            惊喜: '0afecaf3a3499479af946f29749e1a6c285b6f65.webp', 
+            吐: '06946bfe71ac48a6078a0b662181bb5cad09decc.webp', 
+            灵魂出窍: '43d3db7d97343c01b47e22cfabeca84b4251f35a.webp', 
+            保佑: 'fafe8d3de0dc139ebe995491d2dac458a865fb30.webp', 
+            怒: '3195714219c4b582a4fb02033dd1519913d0246d.webp',
+            干杯: '8da12d5f55a2c7e9778dcc05b40571979fe208e6.webp', 
+            拥抱: '41780a4254750cdaaccb20735730a36044e98ef3.webp', 
+            热词系列_知识增加: '142409b595982b8210b2958f3d340f3b47942645.webp', 
+            热词系列_好耶: 'ee2d354d3e67e5d77bab31ad8af99cd5ac89c009.webp', 
+            热词系列_好活: '7ec857e53ebaf37c59e96b5e56bcb0f05cd0b2d7.webp', 
+            热词系列_好家伙: '63ec80dea3066bd9f449ba999ba531fa61f7b4eb.webp', 
+            热词系列_泪目: 'bba3703ab90b7d16fe9dbcb85ed949db687f8331.webp', 
+            热词系列_害怕: 'd77e2de26da143249f0c0ad7a608c27152c985bf.webp', 
+            热词系列_希望没事: '6c0d2e6c486d1ba5afd6204a96e102652464a01d.webp', 
+            鹿乃_疑惑: '502817b928fde334b35425827064258a604579c4.webp', 
+            鹿乃_awsl: 'ad8ae99242c30893ab71b1219c3d8f1e9040e5e7.webp', 
+            鹿乃_DD斩首: 'b679f56e9784a37eeef17fd7e8136e0aefe25414.webp', 
+            狗妈_DD斩首: '060cf4e8aa6d4fefd452de3e14a410de7a4ca9c2.webp', 
+            鹿乃_OK: '5cef9b3abccf0136eba60e8435dc0cc840aa346b.webp', 
+            鹿乃_比心: 'cb89f937ccaeef13865e8db9d894da89c1c9d623.webp', 
+            鹿乃_别在意: '0890fe596a75f191c415f13b6ba1df1bc4476ce3.webp', 
+            鹿乃_吃瓜: '22a727ae7222945e39a7c0d8309040aa6cf7e52e.webp', 
+            鹿乃_吃桃: '193313c1722c67d0a96319f46c8fae2962b1ef87.webp', 
+            鹿乃_打call: '3152d83475c03d08a7862321a13ba1a85c65ee21.webp', 
+            鹿乃_打扰了: '7f99e8ee32fa081f183a25f7993fd7777aa69b4c.webp', 
+            鹿乃_点赞: 'be3f3d478f961e50266b91bc32d59420a71667c0.webp', 
+            鹿乃_对不起: '009ee0707e1bea597a14e93e90a9dd010683128b.webp', 
+            鹿乃_饿了: 'f09bee2dc540d1d375b4bd51ab885734945e1e09.webp', 
+            鹿乃_哈哈哈: '7e16431075f0656f9b86d211b6dd39a5d35aa5c7.webp', 
+            鹿乃_好吃: '976d781ff701e716aa6e16e443d07de77f1e9bf5.webp', 
+            鹿乃_哼歌: 'b56e39de490efb6be652b138ee59d7767686b897.webp', 
+            鹿乃_欢迎回来: '0a735b7bcfcb59ed23b1166122e974b4def96ab5.webp', 
+            鹿乃_加油: 'bcfaad00596cbb6164ff59a5587f6591c17b51b4.webp', 
+            鹿乃_惊讶: 'a5b3c34716d67fde980a18519d8be773f16f8072.webp', 
+            鹿乃_买买买: '37fa6aeb13408b854bf13979b5a06918c30d5c02.webp', 
+            鹿乃_奇怪知识: '38b18fa6d102b0d0ed430c4e16c60e224f34bf07.webp', 
+            鹿乃_生气: 'a435d87d5d33ff16cb6c7c0e97f8de1348fec9a2.webp', 
+            鹿乃_早安: 'f4687445d085cea242c917b9fd6a11d8e3e4a462.webp', 
+            鹿乃_晚安: '7e89ab8794d563a65446b9fcd1df6fe8a7cd3496.webp', 
+            鹿乃_我回来了: 'c003a594bb224caae0e2ab29d99991cf4fedb8e7.webp', 
+            鹿乃_喜欢: '60b42d1be3c13dbb0403526508d3368dcad2766b.webp', 
+            鹿乃_邪魅一笑: '51e3c0440ded232e576b1b00e5cc3fb46944308f.webp', 
+            鹿乃_谢谢: 'e22bab597ed1ca3dc6a1c7c88759f1531ce920a6.webp', 
+            鹿乃_再见: '257066047f20bb4df5cecdfaffde5c9928b5ede7.webp', 
+            鹿乃_真的: '41a79d3f85a3332f4d7197beee55ca14795a3b56.webp', 
+            花丸_对不起: '02d1e8ddfac938b20956f3d83350f442d398286a.webp', 
+            花丸_好耶: '29724d41c08ec63962e0974aa653ea8be0cf3947.webp', 
+            mea_我很可爱请给我钱: '974c4f3235570125e72eda6c664300d882945000.webp', 
+            mea_擦盘子: 'd4e82312c2b7ae24db07dc0748e82ed3f6a88d1b.webp', 
+            mea_对不起: 'b17d7f543cee4ee00716e4ba8b88d1e0e7d9d410.webp', 
+            狗妈_好耶: 'c67cabaf0020dc8b203ba239247906fc8fbbb009.webp', 
+            狗妈_擦: '6880f9f8a338ecd38b601f66f7d2d3a68e26a8b6.webp', 
+              },
+    });
+</script>
+</div>
+
+<script>
+    var comments_type = document.getElementsByClassName("comments-type")
+    var comments_mode = document.getElementsByClassName("comments-mode")
+    for(var i=0;i<comments_type.length;i++){
+    comments_type[i].index = i; // 储存所有键值
+    comments_type[i].onclick = function(){
+      // 点击事件的实现功能，this就是点击的comments-type
+      for(var j=0;j<comments_type.length;j++){
+          comments_type[j].className = comments_type[j].className.replace(' active', '').trim();
+          comments_mode[j].className = comments_mode[j].className.replace(' show', '').trim();
+      }
+      
+      // 再给应该添加的对象添加className
+      this.className = this.className + ' active';
+      comments_mode[this.index].className = comments_mode[this.index].className + ' show';
+    };
+}
+</script>

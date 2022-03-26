@@ -1,0 +1,32 @@
+name: Hexo
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 检查
+      uses: actions/checkout@v2
+  
+    - name: 搭建环境
+      uses: actions/setup-node@v1
+      with:
+        node-version: "10.x"
+        
+    - name: 生成
+      run: |
+        npm i -g hexo-cli
+        npm i
+        hexo g
+    
+    - name: Deploy With Github-pages-deploy-action
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        ACCESS_TOKEN: ${{ secrets.HEXO_DEPLOY_PRI }}
+        BRANCH: master # The branch the action should deploy to.
+        FOLDER: public # The folder the action should deploy.
+        REPOSITORY_NAME: lijiajunljj/lijiajunljj.github.io
+# 以上代码照抄了很多地方的，在此不一一列出，代码很渣不要打我

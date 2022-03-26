@@ -1,0 +1,13 @@
+  <div class="page">
+  <div class="title"><%- page.title %></div>
+  <div class="content markdown-body">
+  <%- page.content %>
+  <br>
+  <div style="float:right">
+    <i class="fa fa-tags"></i>  标签：<%- list_tags(page.tags, { show_count: false, style: 'none', amount: 3 }) %> | <i class="fa fa-folder"></i> 分类于 <%- list_categories(page.categories, {show_count: false, class: 'label', style: 'none'}) %>
+  </div>
+    <br>
+    <% if (page.comments !== 'false') { %>
+      <%- partial('_others/pl') %>
+    <% } %>
+</div>

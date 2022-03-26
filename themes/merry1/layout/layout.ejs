@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="format-detection" content="telphone=no, email=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <%- autoCanonical(config, page) %>
+    <% if (is_post()) { %>
+    <% if (page.excerpt) { %>
+      <meta name="description" itemprop="description" content="<%- page.excerpt ? strip_html(page.excerpt) : truncate(strip_html(post.content), {length: 120}) %>" />
+      <meta name="keywords" content="<%- strip_html(list_tags(page.tags, { show_count: false, style: 'none' })) %>" />
+    <% } else { %>
+      <meta name="description" itemprop="description" content="<%- config.description %>" />
+    <% } %>
+  <% } else { %>
+    <meta name="description" itemprop="description" content="<%- page.description || config.description %>" />
+    <meta name="keywords" content="<%- config.keywords %>" />
+  <% } %>
+  <% if (config.author) { %>
+    <meta name="author" content="<%= config.author %>">
+  <% } %>
+  <% if (config.copyright) { %>
+    <meta name="copyright" content="<%= config.copyright %>">
+  <% } %>
+  <title><%= page.title ? page.title : config.title %></title>
+  <%- open_graph({
+    image: theme.avatar
+  }) %>
+  <%- partial('_others/site') %>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css/github-markdown.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="<%- url_for('/css/layout.css') %>">
+  <!--有些人不用显示公式啊，所以就加个判断，需要时就打开，不需要时就关闭，以免出现加载速度问题-->
+    <% if (theme.katex) { %>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+  <% } %>
+  <link href="<%- url_for(theme.avatar) %>" rel="shortcut icon" >
+</head>
+
+<body>
+<script type="text/javascript">
+        if (!!window.ActiveXObject || "ActiveXObject" in window) {
+            document.writeln("<div><p style='text-align: center; font-size: 20px;'>提醒：使用IE浏览器可能不会得到最好的浏览体验</div>");;
+        } else {
+            console.log('wow，看来没在用IE啊，那抱歉，打扰了~');
+        }
+ </script>
+  <%- body %>
+  <div class="markdown-body">
+    <% if(theme.footer){ %>
+    <%- theme.footer %>
+    <br />
+    <% } %>
+    <small>© 2020 <a href="<%- url_for('/') %>"><%= config.author %></a> - Powered By <a href="https://hexo.io">Hexo</a> And <a href="https://github.com/Anillc/merry">Merry</a></small>
+  </div>
+</body>
+
+</html>

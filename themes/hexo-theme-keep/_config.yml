@@ -1,0 +1,241 @@
+# ---------------------------------------------------------------------------------------
+#  Your basic info
+# ---------------------------------------------------------------------------------------
+base_info:
+  title: lijiakaijun
+  author: lijiakaijun
+  url: https://blog.lijiakaijun.cyou
+  # Logo image (You can use local image, image external link or don’t fill)
+  logo_img: /favicon.webp
+
+
+# ---------------------------------------------------------------------------------------
+# Theme style settings
+# ---------------------------------------------------------------------------------------
+style:
+  # Theme primary color
+  primary_color: '#00CCFF'
+
+  # Avatar (You can use local image or image external link)
+  avatar: /favicon.webp
+
+  # Favicon (You can use local image or image external link)
+  favicon: /favicon.webp
+  # Article image align position, value: left | center
+  article_img_align: left
+
+  # Left side width
+  left_side_width: 260px
+
+  # Content area max width
+  content_max_width: 920px
+
+  # Mouse hover
+  hover:
+    shadow: false   # shadow effect when the mouse hover
+    scale: false    # scale effect when the mouse hover
+
+  # First screen
+  first_screen:
+    enable: true
+    background_img: /images/bg.svg   # You can use local image or image external link
+    description: 咕咕咕
+
+  # Scroll style settings
+  scroll:
+    progress_bar:
+      enable: true
+    percent:
+      enable: false
+
+
+# ---------------------------------------------------------------------------------------
+# Social contact link
+# ---------------------------------------------------------------------------------------
+social_contact:
+  enable: true
+  links:
+    github: https://github.com/lijiajunljj # your GitHub URL
+    weixin:          # your WeChat QR-Code URL
+    qq:              # your QQ QR-Code URL
+    weibo:           # your WeiBo URL
+    zhihu: https://zhihu.com/people/lijiakaijun # your ZhiHu URL
+    twitter: https://twitter.com/lijia_kai # your twitter URL
+    facebook:        # your facebook URL
+    email: lijiajunljj712@gmail.com # your email
+
+
+# ---------------------------------------------------------------------------------------
+# Navigation menu
+# ---------------------------------------------------------------------------------------
+menu:
+  Home: /
+  Archives: /archives
+  Categories: /categories
+  Tags: /tags
+  Links: /friends
+  About: /about
+  Changelog: /update
+  喜欢的: /like
+  Pay: /pay
+  留言: /contact
+  # ......
+
+
+# ---------------------------------------------------------------------------------------
+# Home page article block display settings
+# ---------------------------------------------------------------------------------------
+home_article:
+  category:
+    enable: true     # show category in home page article block
+    limit: 3          # max number of categories shown in home page article block
+  tag:
+    enable: true     # show tags in home page article block
+    limit: 5          # max number of tags shown in home page article block
+
+
+# ---------------------------------------------------------------------------------------
+# Post page Settings
+# ---------------------------------------------------------------------------------------
+post:
+  # Post word count
+  # Dependencies: hexo-wordcount (npm install hexo-wordcount)
+  # See: https://github.com/willin/hexo-wordcount
+  word_count:
+    enable: true
+    wordcount: true  # word count, one article
+    min2read: true   # time to read, one article
+
+  # Author label
+  author_label:
+    enable: true
+    auto: true  # if true, show Lv1, Lv2, Lv3... , If false, show custom label
+    # label array item can be one or more
+    custom_label_list: [ "Trainee", "Engineer", "Architect", "CTO", "BOSS" ]
+
+
+# ---------------------------------------------------------------------------------------
+# Code copy
+# ---------------------------------------------------------------------------------------
+code_copy:
+  enable: false
+  style: default        # values: default | mac
+
+
+# ---------------------------------------------------------------------------------------
+# Table of Contents in the Sidebar
+# ---------------------------------------------------------------------------------------
+toc:
+  enable: true
+
+  # Automatically add list number to toc.
+  number: false
+
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: false
+
+  # If true, open TOC every time when you enter the article page
+  init_open: true
+
+
+# ---------------------------------------------------------------------------------------
+# Post copyright info
+# ---------------------------------------------------------------------------------------
+copyright_info:
+  enable: true
+
+
+# ---------------------------------------------------------------------------------------
+# Website count
+# ---------------------------------------------------------------------------------------
+website_count:
+  # busuanzi
+  # See: http://ibruce.info/2015/04/04/busuanzi/
+  busuanzi_count:
+    enable: false
+    site_uv: false
+    site_pv: false
+    page_pv: false
+
+
+# ---------------------------------------------------------------------------------------
+# Local Search
+# Dependencies: hexo-generator-searchdb
+# See: https://github.com/theme-next/hexo-generator-searchdb
+# ---------------------------------------------------------------------------------------
+local_search:
+  enable: true
+  preload: true     # Preload the search data when the page loads
+
+
+# ---------------------------------------------------------------------------------------
+# Comment plugin
+# ---------------------------------------------------------------------------------------
+comment:
+  enable: true
+  use: valine  # values: valine | gitalk | twikoo
+
+  # Valine
+  # See: https://github.com/xCss/Valine
+  valine:
+    appid: GKbU6pAC42Hgci3yzuNYNn0w-MdYXbMMI   # your leancloud application appid
+    appkey: OJ56tftp292ntCQW5iLWQboE              # your leancloud application appkey
+    serverURL: https://c.lijiakaijun.cyou/         # your placeholder
+
+  # Gitalk
+  # See: https://github.com/gitalk/gitalk
+  gitalk:
+    github_id:             # GitHub repo owner
+    repository:            # Repository name to store issues
+    client_id:             # GitHub Application Client ID
+    client_secret:         # GitHub Application Client Secret
+
+  # Twikoo
+  # See: https://github.com/imaegoo/twikoo
+  twikoo:
+    env_id:                # Tencent Cloud environment id
+    region:                # environment region. If select Guangzhou, fill in "ap-guangzhou".
+
+
+# ---------------------------------------------------------------------------------------
+# RSS
+# Dependencies: hexo-generator-feed
+# See: https://github.com/hexojs/hexo-generator-feed
+# ---------------------------------------------------------------------------------------
+rss:
+  enable: true
+
+
+# ---------------------------------------------------------------------------------------
+# Lazyload image
+# ---------------------------------------------------------------------------------------
+lazyload:
+  enable: true
+
+
+# ---------------------------------------------------------------------------------------
+# CDN
+# ---------------------------------------------------------------------------------------
+cdn:
+  enable: true
+
+
+# ---------------------------------------------------------------------------------------
+# PJAX
+# ---------------------------------------------------------------------------------------
+pjax:
+  enable: true
+
+
+# ---------------------------------------------------------------------------------------
+# Footer settings
+# ---------------------------------------------------------------------------------------
+footer:
+  since: 2019      # the starting year of your website, Can be null
+  icp:             # ICP record number of your website, Can be null
+
+
+# ---------------------------------------------------------------------------------------
+# Keep version (Please don't modify)
+# ---------------------------------------------------------------------------------------
+version: 3.4.3

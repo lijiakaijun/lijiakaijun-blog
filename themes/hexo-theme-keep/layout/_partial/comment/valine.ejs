@@ -1,0 +1,74 @@
+<% if(
+        theme.comment.use === 'valine'
+        && theme.comment.valine.appid
+        && theme.comment.valine.appkey
+) { %>
+    <div class="valine-container">
+        <script <%= theme.pjax.enable === true ? 'data-pjax' : '' %>
+                src="https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"></script>
+        <div id="vcomments"></div>
+        <script <%= theme.pjax.enable === true ? 'data-pjax' : '' %>>
+            function loadWaline() {
+                new Waline({
+                    el: '#vcomments',
+                    serverURL: '<%- theme.comment.valine.serverURL %>',
+                    login: 'disable', 
+					requiredMeta: ['nick', 'mail'], 
+					wordLimit: 100, 
+					placeholder: '评论提交可能有点慢，图片请自行上传到图床XD\n评论需由lijia审核后方可显示，限制1min发送1次评论', 
+					dark: 'body.dark-mode', 
+					emoji: [
+						'https://pic.lijiakaijun.cyou/emote/tv', 
+						'https://pic.lijiakaijun.cyou/emote/bili', 
+						'https://pic.lijiakaijun.cyou/emote/reci', 
+						'https://pic.lijiakaijun.cyou/emote/kano', 
+						'https://pic.lijiakaijun.cyou/emote/qinai', 
+						'https://pic.lijiakaijun.cyou/emote/orange', 
+						'https://pic.lijiakaijun.cyou/emote/mea'
+					],
+                });
+
+                function getAuthor(language) {
+                    switch (language) {
+                        case 'en':
+                            return 'Author';
+                        case 'zh-CN':
+                            return '博主';
+                        default:
+                            return 'Master';
+                    }
+                }
+
+                // Add "Author" identify
+                const getValineDomTimer = setInterval(() => {
+                    const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
+                    if (vcards.length > 0) {
+                        let author = '<%= theme.base_info.author || config.author %>';
+
+                        if (author) {
+                            for (let vcard of vcards) {
+                                const vnick_dom = vcard.querySelector('.vhead .vnick');
+                                const vnick = vnick_dom.innerHTML;
+                                if (vnick === author) {
+                                    vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
+                                }
+                            }
+                        }
+                        clearInterval(getValineDomTimer);
+                    } else {
+                        clearInterval(getValineDomTimer);
+                    }
+                }, 2000);
+            }
+
+            if ('<%= theme.pjax.enable %>') {
+                const loadWalineTimeout = setTimeout(() => {
+                    loadWaline();
+                    clearTimeout(loadWalineTimeout);
+                }, 1000);
+            } else {
+                window.addEventListener('DOMContentLoaded', loadWaline);
+            }
+        </script>
+    </div>
+<% } %>

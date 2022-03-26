@@ -1,0 +1,252 @@
+# Global 全局配置
+site_analytics: <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js?token=f7e91cb847eb445c9d6804fae5889cb6'></script><!-- End Cloudflare Web Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-147974252-3"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','UA-147974252-3');</script>
+hoster: <a href="https://github.com" target="_blank">Github</a> and <a href="https://vercel.com" target="_blank">Vercel</a> or <a href="https://cloudflare.com" target="_blank">CloudFlare</a>
+site_logo: /me.webp
+snow: false
+click_animate_js: 'candy'
+enable_dark: true
+highlight_theme: night-eighties # 代码高亮主题（light | night | night-eighties | night-blue | night-bright）
+cdn: false
+check_update: false
+
+# 自定义样式
+customStyles:
+  images: # 图片相关设置
+    banner: /images/banner.webp # 站点横幅
+    background: /images/bg.webp # 站点背景
+
+# Index 首页配置
+index:
+  post_type: false
+  read_count: true
+  comment_count: true
+
+# Top Menu 顶部导航栏配置 （具体格式请参照文档）
+menu:
+  index: /
+  archives: /archives/
+  friend: /friend
+  about: /about
+  changelog: /update
+  contact: /contact
+  like: /like
+  pay: /pay
+
+label:
+  index: <i class="fa fa-home"></i>首页
+  archives: <i class="fa fa-file"></i>档案馆
+  friend: <i class="fa fa-paw"></i>友链
+  about: <i class="fa fa-user"></i>关于
+  changelog: <i class="fa fa-upload"></i>网站更新记录
+  contact: <i class="fa fa-commenting-o"></i>留言
+  like: <i class="fa fa-heart-o"></i>喜欢...
+  pay: <i class="fa fa-money"></i>投喂
+
+# Footer 页脚配置
+group_link: 
+contact:
+  weibo: 
+  mail: wwln@lijiakaijun.cyou
+  telegram: lijiakaijun
+  twitter: kw_sing_Ironi
+  facebook: 
+  linkedin: 
+  fediverse:
+    instance: 
+    username: 
+  github: lijiajunljj
+  rss: atom.xml
+timenotice: 不经意间，本站已经运行了
+icp: <a href="https://icp.gov.moe" target="_blank">萌ICP备</a><a href="https://icp.gov.moe/?keyword=20215956" target="_blank"> 20215956号</a></div><div><li><a href="/privacy-policy">网站隐私协议</a></li></div>
+psr:
+  
+# Post Page 文章页配置
+posts:
+  show_cc: true
+  donate: false
+  share: true
+  comments: waline
+
+# Disqus [Disqus](https://disqus.com) 评论相关
+disqus:
+  shortname: 
+
+# DisqusJS [DisqusJS](https://disqusjs.skk.moe/) 评论相关
+disqusjs:
+  shortname: 
+  sitename: 
+  api: 
+  apikey: 
+  admin: 
+  adminlabel: 
+
+# Valine [Valine](https://valine.js.org) 评论相关
+valine:
+  app_id: 
+  app_key: 
+  visitor: true
+  enableQQ: false
+
+# Twikoo [Twikoo](https://twikoo.js.org) 评论相关
+twikoo:
+  env_id: 
+
+# Waline [Waline](https://waline.js.org) 评论相关
+## 不仅限于以下内容，您可以参照 Waline的 [前端配置文档](https://waline.js.org/client/basic.html) 设置您需要的配置项
+## el 和 path 会在页面自动生成，不必加入
+waline:
+  serverURL: https://pl-lijiakaijun.vercel.app/
+  visitor: true
+  login: 'disable'
+  uploadImage: 'false'
+  requiredMeta: ['nick', 'mail']
+  placeholder: '要好好的评论哦~'
+  emoji: ['https://pic.lijiakaijun.cyou/emote/tv', 'https://pic.lijiakaijun.cyou/emote/bili', 'https://pic.lijiakaijun.cyou/emote/reci', 'https://pic.lijiakaijun.cyou/emote/kano', 'https://pic.lijiakaijun.cyou/emote/qinai', 'https://pic.lijiakaijun.cyou/emote/orange', 'https://pic.lijiakaijun.cyou/emote/mea']
+
+# Gitalk [Gitalk](https://gitalk.github.io/) 评论相关
+## 不仅限于以下内容，您可以参照 [Gitalk 文档](https://github.com/gitalk/gitalk/blob/master/readme-cn.md#%E8%AE%BE%E7%BD%AE) 设置您需要的配置项
+## id 会在页面自动生成，不必加入
+gitalk:
+  clientID: 'GitHub Application Client ID'
+  clientSecret: 'GitHub Application Client Secret'
+  repo: 'GitHub repo'
+  owner: 'GitHub repo owner'
+  admin: 
+    - 'Candinya'
+  distractionFreeMode: false
+
+# APlayer 左下角音乐播放器
+aplayer:
+  enabled: false
+  playlist: 
+  meting:
+    server: netease
+    type: playlist
+    id: 3204190542
+  order: random
+
+# Widgets 侧边栏小挂件
+sidebar: right
+widgets:
+- about
+- splitter
+- toc
+- posts
+- category
+- tagcloud
+avatarUri: /favicon.webp
+mobile_toc: 
+  hide: false
+  hide_id: false
+
+# Fancybox 文章内图片单击放大
+fancybox: true
+
+# Search 搜索
+search:
+  enable: true
+  path: search.json
+  field: post # page | post | all. Default post
+  content: true # Include post | page content
+
+# JavaScript 相关配置
+## 由于Javascript被压缩后难以有效编辑与生成，因而为了简化操作，将相关的配置项在生成文件时以独立的json文件写出，调用时使用fetch API获取。
+jsconfig:
+  main:
+    pic:
+      CDN: false # 表示使用 CDN 加载图片
+      random_amount: 24 # 表示从1~20
+      filename: "images/thumb/thumb_{no}.webp" # 相对于主题根目录，表示文件名的格式, {no} 用以指代随机的编号。
+                                              # 如果包含 // 表示使用指定域名的绝对路径（例如第三方图床服务等），那么会忽略 CDN 选项
+    createTime: "2019/09/14 10:08:00"
+    donateBtn: "支持我~"
+    scanNotice: "扫一扫，好不好？"
+    qr_alipay: "/images/alipayqr.webp"
+    qr_wechat: "/images/wechatpayqr.webp"
+    siteLeaveEvent: false
+    leaveTitle: "{{{(>_<)}}}哦哟，崩溃啦~"
+    returnTitle: "(*´∇｀*)欸，又好啦~"
+    copyrightNotice: "该内容采用 CC BY-NC-SA 4.0 许可协议，著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"
+    expire_day: 30
+    topNavScrollToggle: true
+
+# Site verify 站点验证相关配置内容
+site_verify:
+  google: "5NCyrBg_Dd0RyKzPE66VAoAjXyn8rs5KSu_ipr5B0nI"
+  baidu: 
+  bing: 
+
+# Friends 友链相关内容
+friends:
+  href: "friends"
+  page:
+    title: "好伙伴们"
+    comments: false
+    bio: "好伙伴们在哪里~"
+    updated: "2021-11-19"
+  list:
+  - name: "Eden瞎写小屋"
+    bio: "去探索，去发现"
+    avatar: "https://cdn.jsdelivr.net/gh/MEMZSONBILI/PicGoBed@master/images/20200625174516.jpg"
+    link: "https://blog.edenjohnson.cyou"
+  - name: "xunflash"
+    bio: "这个人没写介绍啊……要不去看看？"
+    avatar: "https://s1.ax1x.com/2020/09/21/wb8qET.jpg"
+    link: "https://www.xunflash.top"
+  - name: "typeboom"
+    bio: "易燃易爆"
+    avatar: "https://img.typeboom.com/extreme.png"
+    link: "https://typeboom.com"
+  - name: "盒猫的小窝"
+    bio: "小记一下，不要在互联网的浪潮里忘记我"
+    avatar: "https://search.pstatic.net/common/?src=https://i.imgur.com/rHcHoC2l.png"
+    link: "https://boxcat.cc"
+  - name: "Lenger的后花园"
+    bio: "如果是你的话，一定没问题"
+    avatar: "https://spookerv5.github.io/images/avatar.png"
+    link: "https://spookerv5.github.io"
+  - name: "krau’s blog"
+    bio: "年轻，就要折腾"
+    avatar: "https://avatar.dawnlab.me/qq/1636648138"
+    link: "https://krau.top"
+  - name: "Anillc’s blog"
+    bio: "最喜欢鹿乃啦XD"
+    avatar: "https://gravatar.loli.net/avatar/5df946d48b36e6f8061cdfe7ebcdf75c?s=512"
+    link: "https://anillc.cn"
+  - name: "LK的小站"
+    bio: "普普通通的初三学生"
+    avatar: "https://i.loli.net/2021/01/31/CD25rd37Lt6HyOF.png"
+    link: "http://lkkkk.xyz"
+  # - name: "ITY’s blog"
+  #  bio: "Everything is a story"
+  #  link: "https://7ity.github.io"
+  #  avatar: "https://cdn.jsdelivr.net/gh/7ity/7ity.github.io/image/star.svg"
+  - name: "小理の小窝"
+    bio: "生而为爷 我很抱歉"
+    avatar: "https://s.pc.qq.com/tousu/img/20210726/3644430_1627301389.jpg"
+    link: "https://xiaolii.com"
+  - name: "杏铃の小本"
+    bio: "一份分享教程,游戏的礼物✧(≖ ◡ ≖✿)"
+    avatar: "https://gitee.com/hshx123/picplus/raw/master/1595119088132.png"
+    link: "https://杏铃.top"
+  - name: "GHOST"
+    bio: "emmmm"
+    avatar: "https://the-nameless-spectre.github.io/file/avatar.png"
+    link: "https://the-nameless-spectre.github.io"
+  - name: "XM的小窝"
+    bio: "小鹿包，经常会开坑忘填（划掉）のblog"
+    avatar: "https://cdn.sep.cc/avatar/caa50e6e1d3538931cdbe4bf306f6c30?s=50&d=mm&r=g"
+    link: "https://kanokano.cn"
+  - name: "Leao的博客"
+    bio: "记录我修BUG的日常"
+    avatar: "https://blog.ascn.site/images/avatar.jpg"
+    link: "https://blog.ascn.site"
+#  - name: "Sunyz Blog"
+#    bio: "Sunyz的个人博客"
+#    avatar: "https://scdn.sunyz.cn/Icon.jpg"
+#    link: "https://blog.sunyz.cn"
+  - name: "Lapis Apple的回收站"
+    bio: "一个回收站，里面住着Lapis Apple"
+    avatar: "https://s1.ax1x.com/2020/04/12/GqhDs0.png"
+    link: "https://laple.me"
+  verify: false # 验证每个友链的可访问性，炸了会有提示

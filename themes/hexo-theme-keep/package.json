@@ -1,0 +1,57 @@
+{
+  "_from": "hexo-theme-keep",
+  "_id": "hexo-theme-keep@3.4.3",
+  "_inBundle": false,
+  "_integrity": "sha512-XOaoCsApY1sWFnrEnYHTIyWEC4go1BJG5yt7odKkvPQt0MkL/PCM5A+XZSsLmcWdYTavkFt2Apvtgvd1pLzYlg==",
+  "_location": "/hexo-theme-keep",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-theme-keep",
+    "name": "hexo-theme-keep",
+    "escapedName": "hexo-theme-keep",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hexo-theme-keep/-/hexo-theme-keep-3.4.3.tgz",
+  "_shasum": "0cd223cf520e557da5cc6c0922d78f78d321096f",
+  "_spec": "hexo-theme-keep",
+  "_where": "D:\\lijiakaijun\\lijiakaijun-blog",
+  "author": {
+    "name": "XPoet"
+  },
+  "bugs": {
+    "url": "https://github.com/XPoet/hexo-theme-keep/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A simple and elegant theme for Hexo.",
+  "homepage": "https://github.com/XPoet/hexo-theme-keep#readme",
+  "keywords": [
+    "hexo",
+    "theme",
+    "hexo-theme",
+    "simple",
+    "elegant",
+    "beautiful",
+    "powerful"
+  ],
+  "license": "MIT",
+  "name": "hexo-theme-keep",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/XPoet/hexo-theme-keep.git"
+  },
+  "scripts": {
+    "publish": "npm publish",
+    "release": "git push --tag && git push -u origin master"
+  },
+  "version": "3.4.3"
+}

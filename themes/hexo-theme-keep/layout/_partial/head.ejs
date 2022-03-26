@@ -1,0 +1,47 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="<%= config.keywords || 'Hexo Theme Keep' %>">
+    <meta name="description" content="<%= config.description || 'Hexo Theme Keep' %>">
+    <meta name="author" content="<%= theme.base_info.author || config.author || 'Keep Team' %>">
+    <meta name="google-site-verification" content="jOi4iM44VrK4ENrdczDx_VtNqHH22-OANeJ79eH_nC8" />
+    <meta name="msvalidate.01" content="37B06BA3B108C8529420F89DC3BD917C" />
+    <%
+    let title = page.title;
+    if (is_archive()) {
+        title = __('archive');
+        if (is_month()) {
+            title += ': ' + page.year + '/' + page.month;
+        } else if (is_year()) {
+            title += ': ' + page.year;
+        }
+    } else if (is_category()) {
+        title = __('category') + ': ' + page.category;
+    } else if (is_tag()) {
+        title = __('tag') + ': ' + page.tag;
+    } else {
+        title = __(page.title);
+    }
+    %>
+    <title>
+        <% if (title) { %>
+            <%= title %> |
+        <% } %>
+        <%= theme.base_info.title || config.title || 'Keep Theme' %>
+    </title>
+    <%- css('css/style') %>
+    <%- favicon_tag(theme.style.favicon) %>
+    <%- __css('css/font-awesome.min.css') %>
+    <%- export_config() %>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147974252-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-147974252-3');
+  </script>
+</head>
+
