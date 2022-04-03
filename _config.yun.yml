@@ -230,7 +230,7 @@ social:
 # 杂项
 
 mourn:
-  enable: true
+  enable: false
   days:
     - "4-4"
 
