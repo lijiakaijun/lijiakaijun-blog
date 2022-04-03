@@ -230,8 +230,9 @@ social:
 # 杂项
 
 mourn:
-  enable: false
+  enable: true
   days:
+    - "2-15"
     - "4-4"
 
 creative_commons:
