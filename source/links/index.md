@@ -4,6 +4,7 @@ date: 2021-07-30 18:59:21
 description: "好伙伴们在哪里~"
 layout: links
 keywords: 链接
+comments: false
 links:
   - url: https://blog.edenjohnson.cyou
     avatar: https://cdn.jsdelivr.net/gh/MEMZSONBILI/PicGoBed@master/images/20200625174516.jpg
@@ -56,7 +57,7 @@ links:
     blog: 小理の小窝
     desc: 生而为爷 我很抱歉
   - url: https://杏铃.top
-    avatar: https://gitee.com/hshx123/picplus/raw/master/1595119088132.png
+    avatar: https://cdn.jsdelivr.net/gh/hshx123/picyes@master/2022/04/04/croped-image.jpg
     name: 杏铃の小本
     blog: 杏铃の小本
     desc: 一份分享教程,游戏的礼物✧(≖ ◡ ≖✿)
@@ -113,7 +114,9 @@ tip: 友链加载中～如失败请刷新重试～
 
 ## 交换友链
 
-需要交换的话，那就按照下面的格式写吧wwww
+**22.4.10更新：因为这里的评论区不知道为啥寄了，所以就暂时关掉了，需要申请交换或者什么的就自行联系吧（**
+
+~~需要交换的话，那就按照下面的格式写吧wwww~~
 
 ### 交换格式
 
