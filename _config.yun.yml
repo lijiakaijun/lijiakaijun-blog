@@ -158,11 +158,11 @@ girls:
 
 pages:
   - name: 友~链~
-    url: /links/
+    url: /links
     icon: icon-genderless-line
     color: dodgerblue
   - name: 喜欢的女孩子
-    url: /girls/
+    url: /girls
     icon: icon-women-line
     color: hotpink
 
@@ -172,7 +172,7 @@ menu:
     icon: icon-home-4-line
   list:
     - type: archives
-      path: /archives/
+      path: /archives
   custom:
     title: 留言板
     path: /contact
