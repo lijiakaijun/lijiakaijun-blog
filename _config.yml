@@ -29,7 +29,9 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: README.md
+skip_render:
+  - 'README.md'
+  - 'nofund.html'
 
 # Writing
 new_post_name: :year_:month_:day :title.md # File name of new posts
