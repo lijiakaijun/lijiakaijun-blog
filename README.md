@@ -10,7 +10,7 @@
 
 ---
 
-域名将在明年过期，过期后仓库会转移，域名不续费
+域名将会继续续期，但得等到我有钱再说
 
 网站早已提交到Internet Archive进行备份，可登陆网站后搜索域名`lijiajunljj.github.com` `lijiakaijun.me` `lijiajunljj.tk` `blog.lijiakaijun.cyou` 进行翻阅
 
