@@ -86,6 +86,11 @@ links:
     name: KuoHuanHuan
     blog: Huan's Log
     desc: Bravery never goes out of fashion.
+  - url: https://blog.maxelbk.eu.org
+    avatar: https://blog.maxelbk.eu.org
+    name: Maxel Black
+    blog: Maxel's Pages
+    desc: Code & write what we want.
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 友链加载中～如失败请刷新重试～
 ---
