@@ -73,7 +73,7 @@ links:
     desc: 小鹿包，经常会开坑忘填（划掉）のblog
   - url: https://blog.ascn.site
     avatar: https://blog.ascn.site/images/avatar.jpg
-    name: Leao的博客
+    name: Leao
     blog: Leao的博客
     desc: 记录我修BUG的日常
   - url: https://laple.me
@@ -81,6 +81,11 @@ links:
     name: Lapis Apple的回收站
     blog: Lapis Apple的回收站
     desc: 一个回收站，里面住着Lapis Apple
+  - url: https://blog.nekohuan.cyou
+    avatar: https://nekohuan.cyou/req/img/logo/profile@2x.webp
+    name: KuoHuanHuan
+    blog: Huan's Log
+    desc: Bravery never goes out of fashion.
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 友链加载中～如失败请刷新重试～
 ---
