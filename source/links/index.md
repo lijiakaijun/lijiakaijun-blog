@@ -137,9 +137,9 @@ tip: 友链加载中～如失败请刷新重试～
 
 ### 我的信息
 
-顺便附上我的~
+顺便附上我的（
 
->网站图片：https://cdn.jsdelivr.net/gh/lijiajunljj/lijiakaijun-blog/source/favicon.webp
+>网站图片：https://blog.lijiakaijun.cyou/me.webp
 >
 >网站名字：lijiakaijun
 >
@@ -147,13 +147,18 @@ tip: 友链加载中～如失败请刷新重试～
 >
 >网站链接：https://blog.lijiakaijun.cyou
 
-### 交换前要注意...
+### 交换要求（确信
 
 ~~请注意，以下要求**会按照实际情况降低/提高标准**~~
 
-已经在重新安排交换规则了（咕咕咕预定），现在交换全看我心情~
+~~已经在重新安排交换规则了（咕咕咕预定），现在交换全看我心情~~~
 
-### 交换黑名单
+目前要求只有几个，仅新交换的需要满足以下要求，内容如下
+
+- 需要有RSS订阅（非硬性要求，但会提高通过率，通过的且有rss订阅的将会订阅并在[Telegram @lijiakai_rss](https://t.me/lijiakai_rss)推送更新的文章）
+- HTTPS支持（必须）
+
+### 黑名单
 
 |网站名称|网站链接|拉黑原因|
 |--------|-------|-------|
