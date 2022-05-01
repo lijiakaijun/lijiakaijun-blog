@@ -11,31 +11,31 @@ links:
     name: Eden Johnson
     blog: Eden瞎写小屋
     desc: 去探索，去发现
-    color: "" # 代表色
+    color: "#cdc6c0" # 代表色
   - url: https://www.xunflash.top
     avatar: https://s1.ax1x.com/2020/09/21/wb8qET.jpg
     name: xunflash
     blog: xunflash
     desc:
-    color: "" # 代表色
+    color: "#c2c2c2" # 代表色
   - url: https://typeboom.com
     avatar: https://img.typeboom.com/extreme.png
     name: typeboom
     blog: typeboom
     desc: 易燃易爆
-    color: ""
+    color: "#000000"
   - url: https://boxcat.cc
     avatar: https://search.pstatic.net/common/?src=https://i.imgur.com/rHcHoC2l.png
     name: 盒猫的小窝
     blog: 盒猫的小窝
     desc: 小记一下，不要在互联网的浪潮里忘记我
-    color: ""
+    color: "#000000"
   - url: https://spookerv5.github.io
     avatar: https://spookerv5.github.io/images/avatar.png
     name: Lenger的后花园
     blog: Lenger的后花园
     desc: 如果是你的话，一定没问题
-    color: ""
+    color: "#a67b5f"
   - url: https://krau.top
     avatar: https://avatar.dawnlab.me/qq/1636648138
     name: krau’s blog
@@ -51,46 +51,55 @@ links:
     name: LK的小站
     blog: LK的小站
     desc: 普普通通的初三学生
+    color: "#828e9c"
   - url: https://xiaolii.com
     avatar: https://s.pc.qq.com/tousu/img/20210726/3644430_1627301389.jpg
     name: 小理の小窝
     blog: 小理の小窝
     desc: 生而为爷 我很抱歉
+    color: "#faecdf"
   - url: https://杏铃.top
     avatar: https://cdn.jsdelivr.net/gh/hshx123/picyes@master/2022/04/04/croped-image.jpg
     name: 杏铃の小本
     blog: 杏铃の小本
     desc: 一份分享教程,游戏的礼物✧(≖ ◡ ≖✿)
+    color: "#fffac3"
   - url: https://the-nameless-spectre.github.io
     avatar: https://the-nameless-spectre.github.io/file/avatar.png
     name: GHOST
     blog: GHOST
     desc: emmmm
+    color: "#69ffff"
   - url: https://kanokano.cn
-    avatar: https://cdn.sep.cc/avatar/caa50e6e1d3538931cdbe4bf306f6c30?s=50&d=mm&r=g
+    avatar: https://cdn.sep.cc/avatar/caa50e6e1d3538931cdbe4bf306f6c30
     name: XM的小窝
     blog: XM的小窝
     desc: 小鹿包，经常会开坑忘填（划掉）のblog
+    color: "#e3a870"
   - url: https://blog.ascn.site
     avatar: https://blog.ascn.site/images/avatar.jpg
     name: Leao
     blog: Leao的博客
     desc: 记录我修BUG的日常
+    color: "#495da2"
   - url: https://laple.me
     avatar: https://s1.ax1x.com/2020/04/12/GqhDs0.png
     name: Lapis Apple的回收站
     blog: Lapis Apple的回收站
     desc: 一个回收站，里面住着Lapis Apple
+    color: "#3260c1"
   - url: https://blog.nekohuan.cyou
     avatar: https://nekohuan.cyou/req/img/logo/profile@2x.webp
     name: KuoHuanHuan
     blog: Huan's Log
     desc: Bravery never goes out of fashion.
+    color: "#589AB8"
   - url: https://blog.maxelbk.eu.org
-    avatar: https://blog.maxelbk.eu.org
+    avatar: https://blog.maxelbk.eu.org/r/maxel.jpg
     name: Maxel Black
     blog: Maxel's Pages
     desc: Code & write what we want.
+    color: "#0d7cc1"
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 友链加载中～如失败请刷新重试～
 ---
