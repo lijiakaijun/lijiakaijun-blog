@@ -48,12 +48,6 @@ links:
     blog: Anillc’s blog
     desc: 最喜欢鹿乃啦XD
     color: "#f7d75e"
-  - url: http://lkkkk.xyz
-    avatar: https://i.loli.net/2021/01/31/CD25rd37Lt6HyOF.png
-    name: LK的小站
-    blog: LK的小站
-    desc: 普普通通的初三学生
-    color: "#828e9c"
   - url: https://xiaolii.com
     avatar: https://s.pc.qq.com/tousu/img/20210726/3644430_1627301389.jpg
     name: 小理の小窝
@@ -130,6 +124,7 @@ tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是
 
 - [wonder](https://www.wonder1999.com)
 - [7ity](https://7ity.github.com)
+- [LK的小站](http://lkkkk.xyz/)
 
 ---
 
