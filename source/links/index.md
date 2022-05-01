@@ -101,7 +101,7 @@ links:
     desc: Code & write what we want.
     color: "#0d7cc1"
 placeholder: 还没想好说些什么 # 默认对友链的描述
-tip: 友链加载中～如失败请刷新重试～
+tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是不是应该要刷新下了
 ---
 
 ## 自己加的单向友链
