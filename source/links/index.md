@@ -41,11 +41,13 @@ links:
     name: krau’s blog
     blog: krau’s blog
     desc: 年轻，就要折腾
+    color: "#2d5460"
   - url: https://anillc.cn
     avatar: https://gravatar.loli.net/avatar/5df946d48b36e6f8061cdfe7ebcdf75c?s=512
     name: Anillc’s blog
     blog: Anillc’s blog
     desc: 最喜欢鹿乃啦XD
+    color: "#f7d75e"
   - url: http://lkkkk.xyz
     avatar: https://i.loli.net/2021/01/31/CD25rd37Lt6HyOF.png
     name: LK的小站
@@ -57,13 +59,13 @@ links:
     name: 小理の小窝
     blog: 小理の小窝
     desc: 生而为爷 我很抱歉
-    color: "#faecdf"
+    color: "#f4ac94"
   - url: https://杏铃.top
     avatar: https://cdn.jsdelivr.net/gh/hshx123/picyes@master/2022/04/04/croped-image.jpg
     name: 杏铃の小本
     blog: 杏铃の小本
     desc: 一份分享教程,游戏的礼物✧(≖ ◡ ≖✿)
-    color: "#fffac3"
+    color: "#c16266"
   - url: https://the-nameless-spectre.github.io
     avatar: https://the-nameless-spectre.github.io/file/avatar.png
     name: GHOST
