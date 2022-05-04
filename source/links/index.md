@@ -95,12 +95,12 @@ links:
     name: Maxel Black
     blog: Maxel's Pages
     desc: Code & write what we want.
-    color: "#0d7cc1"
+    color: "#32ddff"
   - url: https://jackiecat.top/
-    avatar: https://cdn.jsdelivr.net/gh/jackiecat0418/jackie-images@main/avatar.jpg
+    avatar: https://s2.loli.net/2022/05/04/iQsm9Bofv83yY1U.jpg
     name: Jackie
     blog: Jackie的喵屋&~
-    desc:
+    desc: 一只猫猫的猫窝
     color: "#865938"
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是不是应该要刷新下了
