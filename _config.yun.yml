@@ -8,9 +8,9 @@ avatar:
   url: /me.webp
   opacity: 1
   status:
-    enable: false
-    emoji: 🌑
-    message: Looking for dawn.
+    enable: true
+    emoji: 👀
+    message: 在看什么呢？有必要说吗（
 
 favicon: /favicon.ico
 

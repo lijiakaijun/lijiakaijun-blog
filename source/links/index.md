@@ -96,6 +96,12 @@ links:
     blog: Maxel's Pages
     desc: Code & write what we want.
     color: "#0d7cc1"
+  - url: https://jackiecat.top/
+    avatar: https://cdn.jsdelivr.net/gh/jackiecat0418/jackie-images@main/avatar.jpg
+    name: Jackie
+    blog: Jackie的喵屋&~
+    desc:
+    color: "#865938"
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是不是应该要刷新下了
 ---
