@@ -83,7 +83,7 @@ links:
     name: Lapis Apple的回收站
     blog: Lapis Apple的回收站
     desc: 一个回收站，里面住着Lapis Apple
-    color: "#3260c1"
+    color: "#066EAC"
   - url: https://blog.nekohuan.cyou
     avatar: https://nekohuan.cyou/req/img/logo/profile@2x.webp
     name: KuoHuanHuan
@@ -101,7 +101,7 @@ links:
     name: Jackie
     blog: Jackie的喵屋&~
     desc: 一只猫猫的猫窝
-    color: "#865938"
+    color: "#d0bfad"
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是不是应该要刷新下了
 ---
