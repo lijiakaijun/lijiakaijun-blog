@@ -102,6 +102,12 @@ links:
     blog: Jackie的喵屋&~
     desc: 一只猫猫的猫窝
     color: "#d0bfad"
+  - url: https://blog.zer0code.cn
+    avatar: https://public.sunyz.net/persons/Zhuym.jpg
+    name: Zhuym
+    blog: Zhuym的博客
+    desc: Zhuym的个人博客
+    color: "#abe9fc"
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是不是应该要刷新下了
 ---
