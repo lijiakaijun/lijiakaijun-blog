@@ -150,7 +150,7 @@ google_tagmanager:
 
 post_edit:
   enable: true
-  url: https://github.com/lijiajunljj/lijiakaijun-blog/tree/source/
+  url: https://github.com/lijiajunljj/lijiakaijun-blog/tree/main/source/
 
 girls:
   enable: true
