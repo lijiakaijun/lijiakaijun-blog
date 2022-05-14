@@ -19,3 +19,8 @@ Disallow: /pay
 Disallow: /search
 Disallow: /tags
 Disallow: /update
+Disallow: /nofund.html
+Disallow: /privacy-policy
+Disallow: /girls
+Disallow: /links
+Disallow: /update
