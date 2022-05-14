@@ -16,7 +16,7 @@ lk: /others
 
 ## Bilibili
 
-### BV1Y4411Z7RW
+# 【win10 9785 JP】2014年所谓的“Windows 9” BV1Y4411Z7RW
 
 视频链接：[https://www.bilibili.com/video/BV1Y4411Z7RW](https://www.bilibili.com/video/BV1Y4411Z7RW)
 
@@ -24,9 +24,7 @@ lk: /others
 
 <iframe src="https://player.bilibili.com/player.html?bvid=1Y4411Z7RW" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-
-
-### BV15E411s7ha
+# 【win8 7850 metro】win8早期初始的开始屏幕 BV15E411s7ha
 
 视频链接：[https://www.bilibili.com/video/BV15E411s7ha](https://www.bilibili.com/video/BV15E411s7ha)
 
@@ -44,7 +42,7 @@ lk: /others
 
 <iframe src="https://player.bilibili.com/player.html?bvid=15E411s7ha" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-### BV1U441117TN
+# 【MV】鹿乃「ルカルカ☆ナイトフィーバー」【OFFICIAL】 BV1U441117TN
 
 视频链接：[https://www.bilibili.com/video/BV1U441117TN](https://www.bilibili.com/video/BV1U441117TN)
 
@@ -62,7 +60,7 @@ lk: /others
 
 <iframe src="//player.bilibili.com/player.html?aid=66476652&bvid=BV1U441117TN&cid=115287880&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-### BV1x7411H7yA
+# 《午夜0点的无力的神明/午前0時の無力な神様》MV【鹿乃】 BV1x7411H7yA
 
 视频链接：[https://www.bilibili.com/video/BV1x7411H7yA](https://www.bilibili.com/video/BV1x7411H7yA)
 
@@ -86,7 +84,7 @@ lk: /others
 
 <iframe src="//player.bilibili.com/player.html?aid=86909510&bvid=BV1x7411H7yA&cid=148489417&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-### BV127411C7jS
+# 【日语填词翻唱】处处吻【鹿乃】 BV127411C7jS
 
 视频链接：[https://www.bilibili.com/video/BV127411C7jS](https://www.bilibili.com/video/BV127411C7jS)
 
@@ -101,7 +99,7 @@ lk: /others
 
 <iframe src="//player.bilibili.com/player.html?aid=99465247&bvid=BV127411C7jS&cid=169764996&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-### BV1ke411W7KP
+# 鹿乃出道五周年纪念动画 BV1ke411W7KP
 
 视频链接：[https://www.bilibili.com/video/BV1ke411W7KP](https://www.bilibili.com/video/BV1ke411W7KP)
 
@@ -112,7 +110,7 @@ lk: /others
 
 <iframe src="//player.bilibili.com/player.html?aid=243249431&bvid=BV1ke411W7KP&cid=193143411&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-### BV1oJ411r7sm
+# 【恶俗娘】神乐Mea炎上事件（恶俗圈方面） BV1oJ411r7sm
 
 视频链接：[https://www.bilibili.com/video/BV1oJ411r7sm](https://www.bilibili.com/video/BV1oJ411r7sm)
 
@@ -127,7 +125,7 @@ lk: /others
 
 <iframe src="//player.bilibili.com/player.html?aid=79270673&bvid=BV1oJ411r7sm&cid=135654173&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-### BV14C4y1H7n9
+# 花两百万娶的老婆到期了【阅片无数48】 BV14C4y1H7n9
 
 视频链接：[https://www.bilibili.com/video/BV14C4y1H7n9](https://www.bilibili.com/video/BV14C4y1H7n9)
 
@@ -142,9 +140,35 @@ lk: /others
 
 <iframe src="//player.bilibili.com/player.html?bvid=14C4y1H7n9" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-### cv5849240
+# 如何让B站风气重回正轨 cv5849240
 
 专栏链接：[https://www.bilibili.com/read/cv5849240](https://www.bilibili.com/read/cv5849240)
+
+# 【湊-阿库娅】Take Over - 所向无前 av927606430
+
+视频链接：https://bilibili.com/video/av927606430
+
+> 备注：
+>
+> 今晚夸本来应该在S10唱rap，而她却在mc堆tnt
+>
+> （摘编自视频评论）
+
+<iframe src="//player.bilibili.com/player.html?aid=927606430&cid=249440359&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+# 星之回响【2020拜年祭单品】 av78978587
+
+视频链接：https://bilibili.com/video/av78978587
+
+> 备注：
+>
+> 从这首歌认识到鹿乃的
+>
+> 因为是在2020年上半年，而这段时期对我来说很重要
+>
+> 现在看看，星之绝响
+
+<iframe src="//player.bilibili.com/player.html?aid=78978587&cid=146127234&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ---
 
@@ -164,13 +188,27 @@ lk: /others
 
 链接：[网易云](https://music.163.com/#/song?id=1392566184)，[QQ音乐](https://y.qq.com/n/yqq/song/002XbG4819kDLy.html)（其他的自己找吧，我也懒得找了www）
 
+### *群青*
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1472480890&auto=0&height=66"></iframe>
+
+### *聴いて*
+
+版权原因，没有播放器╮(╯_╰)╭
+
+链接：[网易云](https://music.163.com/#/song?id=1428179190)，[QQ音乐](https://y.qq.com/n/ryqq/songDetail/000Zn7mG2BGdQg)
+
+### *アイロニ*
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=22705492&auto=0&height=66"></iframe>
+
 ---
 
 ## 浏览器收藏
 
 ### 收藏夹
 
-#### 其他人的博客
+#### 其他人的博客（此处暂停更新）
 
 https://fehey.com/ 海岛心hey
 
@@ -309,3 +347,4 @@ http://xunflash.ml xunflash
 https://boxcat.cc BoxCat - 盒猫的小窝
 
 > 同上，互换友链，但..没有rss
+
