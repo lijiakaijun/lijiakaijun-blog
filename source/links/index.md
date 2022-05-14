@@ -117,7 +117,7 @@ tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是
 **我自己添加的**单向友链接，按照添加时间排序
 
 - [如题的小屋](https://imrt.top)
-- [梦墨's Blog](https://idream.ink)
+- [梦墨's Blog](https://blog.dreamo.ink/)
 - [Zikin的独立博客 - 青春大概如你所说](https://zikin.org)
 - [老陈の咸鱼日常](https://hwyyds.github.io)
 - [yzzzss | 一座桥在水上's blog](https://blog.othing.xyz)
