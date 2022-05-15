@@ -116,6 +116,12 @@ tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是
 
 **我自己添加的**单向友链接，按照添加时间排序
 
+想提交申请，但按照目前情况和要求来看并不适合主动提出交换友链的要求的，基本都放在这里了
+
+~~主要原因还是不敢嘛.jpg~~
+
+在这里被添加的我也会主动在[Telgram - @lijiakai_rss](https://t.me/lijiakai_rss)频道进行RSS订阅（如果网站提供）
+
 - [如题的小屋](https://imrt.top)
 - [梦墨's Blog](https://blog.dreamo.ink/)
 - [Zikin的独立博客 - 青春大概如你所说](https://zikin.org)
@@ -129,7 +135,7 @@ tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是
 - [皮皮凛の小窝](https://owomoe.net)
 - [余晖无垠](https://www.rssins.net)
 - [GamerNoTitle](https://bili33.top)
-- [Sunyz's blog](https://blog.sunyz.net/)
+- [Sunyz's blog](https://blog.sunyz.net/
 
 ---
 
