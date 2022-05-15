@@ -135,7 +135,8 @@ tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是
 - [皮皮凛の小窝](https://owomoe.net)
 - [余晖无垠](https://www.rssins.net)
 - [GamerNoTitle](https://bili33.top)
-- [Sunyz's blog](https://blog.sunyz.net/
+- [Sunyz's blog](https://blog.sunyz.net/)
+- [Alexhhh's Page - TAT QAQ QwQ](https://alexhhh.moe/)
 
 ---
 
