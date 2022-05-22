@@ -23,13 +23,13 @@ links:
     name: typeboom
     blog: typeboom
     desc: 易燃易爆
-    color: "#000000"
+    color: "#8f8f8f"
   - url: https://boxcat.cc
     avatar: https://search.pstatic.net/common/?src=https://i.imgur.com/rHcHoC2l.png
     name: 盒猫的小窝
     blog: 盒猫的小窝
     desc: 小记一下，不要在互联网的浪潮里忘记我
-    color: "#000000"
+    color: "#8f8f8f"
   - url: https://spookerv5.github.io
     avatar: https://spookerv5.github.io/images/avatar.png
     name: Lenger的后花园
@@ -41,7 +41,7 @@ links:
     name: krau’s blog
     blog: krau’s blog
     desc: 年轻，就要折腾
-    color: "#2d5460"
+    color: "#6d7f88"
   - url: https://anillc.cn
     avatar: https://gravatar.loli.net/avatar/5df946d48b36e6f8061cdfe7ebcdf75c?s=512
     name: Anillc’s blog
