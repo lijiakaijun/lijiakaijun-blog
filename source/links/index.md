@@ -113,7 +113,7 @@ links:
     name: Hao_Tian
     blog: Hao_Tian的博客
     desc: 
-    color: "#570f0f"
+    color: "#afde82"
   - url: https://gmoe.cc
     avatar: https://gmoe.cc/img/gu.jpg
     name: 咕谷酱
@@ -186,7 +186,7 @@ tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是
 >
 >网站名字：lijiakaijun
 >
->介绍：跟随梦想的脚步，感受生命的温度
+>介绍/描述 等，相当于html中的description：跟随梦想的脚步，感受生命的温度
 >
 >网站链接：https://blog.lijiakaijun.cyou
 
