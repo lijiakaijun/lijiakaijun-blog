@@ -108,6 +108,18 @@ links:
     blog: Zhuym的博客
     desc: Zhuym的个人博客
     color: "#abe9fc"
+  - url: https://www.haotian22.top
+    avatar: https://www.haotian22.top/img/title_head.ico
+    name: Hao_Tian
+    blog: Hao_Tian的博客
+    desc: 
+    color: "#570f0f"
+  - url: https://gmoe.cc
+    avatar: https://gmoe.cc/img/gu.jpg
+    name: 咕谷酱
+    blog: 咕萌小站
+    desc: 「世界に忘れられた」
+    color: "#91807e"
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是不是应该要刷新下了
 ---
