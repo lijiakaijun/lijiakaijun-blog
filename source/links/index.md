@@ -4,7 +4,7 @@ date: 2021-07-30 18:59:21
 description: "好伙伴们在哪里~"
 layout: links
 keywords: 链接
-comments: false
+comments: true
 links:
   - url: https://blog.edenjohnson.cyou
     avatar: https://cdn.jsdelivr.net/gh/MEMZSONBILI/PicGoBed@master/images/20200625174516.jpg
