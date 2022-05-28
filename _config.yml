@@ -166,9 +166,10 @@ lazyload:
   isSPA: false # optional
   preloadRatio: 3 # optional, default is 1
   
-# Search
+# 搜索
 # See: https://github.com/theme-next/hexo-generator-search
 search:
   path: search.xml
   field: post
   content: true
+  format: html
