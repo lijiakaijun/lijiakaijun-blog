@@ -12,13 +12,15 @@ date: 2020-12-06 09:50:39
 
 挂上Github 贡献表（实时更新，虽然这是个图片）
 
-![Github [@lijiajunljj](https://github.com/lijiajunljj)的Github图表](https://ghchart.rshah.org/lijiajunljj) 
+![](https://ghchart.rshah.org/lijiakaijun)_Github [@lijiakaijun](https://github.com/lijiakaijun)的Github图表_
 
 [2021年更新](/update/2021) [2020年更新](/update/2020) [2019年更新](/update/2019)
 
 ---
 
 ## 2022年更新
+
+## 2022.05.29更新
 
 ### 2022.05.28更新
 
@@ -27,6 +29,12 @@ date: 2020-12-06 09:50:39
 <!--修改域名管理者等-->
 
 <!--修改部分内容-->
+
+#### 更新内容（更新至2022.05.29）
+
+莫名其妙的解决了点击文章之后会自动带上`t=时间戳`的奇怪问题
+
+设置部分文章的type和链接
 
 ### 2022.05.27更新
 

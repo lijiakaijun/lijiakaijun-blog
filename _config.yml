@@ -6,7 +6,9 @@
 title: lijiakaijun
 subtitle: 跟随梦想的脚步，感受生命的温度
 description: 离别之际的叹息，都沉淀成了回忆
-keywords: lijiakaijun, blog
+keywords:
+  - lijiakaijun
+  - blog
 author: lijiakaijun
 language: zh-CN
 timezone: Asia/Shanghai
