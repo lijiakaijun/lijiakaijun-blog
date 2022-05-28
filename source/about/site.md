@@ -5,21 +5,21 @@ date: 2020-12-06 09:45:41
 
 这个网站的话......只是随便写写的，所以可能会偏日常类的
 
-（甚至是完全的流水账，例如[记录高中的生活](https://blog.lijiakaijun.cyou/posts/41634.html)这一篇）
+（甚至是完全的流水账，例如[记录高中的生活](https://blog.lijiakaijun.cyou/posts/41634.html)这一篇）（别看了这篇文章被我删了保留在草稿那了）
 
 ~~（说白了就是水文章多了一些而已啦）~~
 
 但有时也会写些笔记，亦或者是其他（可能是奇奇怪该的）东西吧
 
-网站在 **2019 年 09 月 14 日 10 点 08 分** 搭建 
+网站于 **2019 年 09 月 14 日 10 点 08 分** 开始运行 
 
 目前使用[Vercel](https://vercel.com)、[CloudFlare Pages](https://cloudflare.com)、Github Actions自动生成网站文件并部署
 
-（主域名blog.lijiakaijun.cyou部署在CloudFlare Worker Site上）
+（主域名blog.lijiakaijun.cyou部署在Vercel上）
 
-使用Google Analytics和CloudFlare Analytics进行访客统计
+使用Google Analytics进行访客统计（或许以后会删除统计代码，或者自己搭建一个）
 
-网站源文件仓库目前托管在[Github](https://github.com/lijiajunljj/lijiakaijun-blog)上
+网站源文件仓库目前托管在[Github](https://github.com/lijiakaijun/lijiakaijun-blog)上
 
 在2020年2月13日前使用[Gridea](https://gridea.dev)编写并部署生成，在这之后转换为[Hexo](https://hexo.io)
 
