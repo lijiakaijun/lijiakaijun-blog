@@ -176,7 +176,7 @@ social:
   - name: 主页
     link: https://lijiakaijun.cyou
     icon: ri:home-line
-    color: "50D7D2"
+    color: "#50D7D2"
   - name: RSS
     # set rss in your root config
     # https://github.com/hexojs/hexo-generator-feed
