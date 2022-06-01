@@ -120,6 +120,12 @@ links:
     blog: 咕萌小站
     desc: 「世界に忘れられた」
     color: "#91807e"
+  - url: https://www.fantanstic.top
+    avatar: https://www.fantanstic.top/img/head.jpg
+    name: 老陈
+    blog: 老陈の咸鱼日常
+    desc: Life is fantanstic.
+    color: "#62abde"
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是不是应该要刷新下了
 ---
