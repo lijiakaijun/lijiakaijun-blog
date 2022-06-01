@@ -85,7 +85,7 @@ links:
     desc: 一个回收站，里面住着Lapis Apple
     color: "#066EAC"
   - url: https://blog.nekohuan.cyou
-    avatar: https://nekohuan.cyou/req/img/logo/profile@2x.webp
+    avatar: https://cdn.jsdelivr.net/gh/kuohuanhuan/cdn@master/profile@2x.webp
     name: KuoHuanHuan
     blog: Huan's Log
     desc: Bravery never goes out of fashion.
