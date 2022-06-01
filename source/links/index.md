@@ -121,7 +121,7 @@ links:
     desc: 「世界に忘れられた」
     color: "#91807e"
   - url: https://www.fantanstic.top
-    avatar: https://www.fantanstic.top/img/head.jpg
+    avatar: https://pic.lijiakaijun.cyou/friends/laochen.jpg
     name: 老陈
     blog: 老陈の咸鱼日常
     desc: Life is fantanstic.
@@ -143,7 +143,7 @@ tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是
 - [如题的小屋](https://imrt.top)
 - [梦墨's Blog](https://blog.dreamo.ink/)
 - [Zikin的独立博客 - 青春大概如你所说](https://zikin.org)
-- [老陈の咸鱼日常](https://hwyyds.github.io)
+- [~~老陈の咸鱼日常~~](https://hwyyds.github.io)
 - [yzzzss | 一座桥在水上's blog](https://blog.othing.xyz)
 - [陈YFの博客(￣▽￣)" ](https://blog.cyfan.top)
 - [ ~~XM的小窝~~ ](https://kanokano.cn)
@@ -200,7 +200,7 @@ tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是
 
 ~~请注意，以下要求**会按照实际情况降低/提高标准**~~
 
-~~已经在重新安排交换规则了（咕咕咕预定），现在交换全看我心情~~~
+~~已经在重新安排交换规则了（咕咕咕预定），现在交换全看我心情~~
 
 目前要求只有几个，仅新交换的需要满足以下要求，内容如下
 
