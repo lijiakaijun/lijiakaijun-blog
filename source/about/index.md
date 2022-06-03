@@ -49,6 +49,11 @@ about.txt
 
 这里是介绍lijiakaijun的页，如想了解其他人，请自行访问他们的网站
 
+<<<<<<< HEAD
+=======
+如需使用GPG，自行思考我GPG公钥会放在哪里
+
+>>>>>>> 54d70cb (添加GPG)
 <script type = "text/javascript">
 var len = 41,
 rnd = Math.floor(Math.random() * len),
