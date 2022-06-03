@@ -7,5 +7,5 @@ compatibility_date = "2022-02-08"
 # 域名相关
 account_id = "c9347d8d0a5b0fa49a5e8a1f03303d78" # Cloudflare Account ID
 workers_dev = true # 是否启用 workers.dev 子域名
-route = "" # Workers 所载的 Route
-zone_id = "" # 域名在 Cloudflare 的 Zone ID
+route = "blog.lijiakaijun.cyou/*" # Workers 所载的 Route
+zone_id = "328a96c8c3714159fbfe597f33f8ff44" # 域名在 Cloudflare 的 Zone ID

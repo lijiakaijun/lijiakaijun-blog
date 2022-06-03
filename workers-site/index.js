@@ -40,7 +40,7 @@ async function handleEvent(event) {
       } catch (e) {
         // 未找到资源，返回 404 页面
         let notFoundResponse = await getAssetFromKV(event, {
-            mapRequestToAsset: (req) => new Request(`${new URL(req.url).origin}/nofund.html`, req),
+            mapRequestToAsset: (req) => new Request(`${new URL(req.url).origin}/404.html`, req),
         });
 
         return new Response(notFoundResponse.body, { ...notFoundResponse, status: 404 });
