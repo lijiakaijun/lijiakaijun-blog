@@ -127,7 +127,7 @@ links:
     desc: Life is fantanstic.
     color: "#62abde"
   - url: https://blog.huankong.top
-    avatar: https://s.nmxc.ltd/sakurairo_vision/@2.5/basic/favicon.ico
+    avatar: https://blog.huankong.top/wp-content/uploads/2022/01/g.jpg
     name: 幻空
     blog: 幻空的博客
     desc: 幸运的人一生都在被童年治愈，不幸的人一生都在治愈童年。
