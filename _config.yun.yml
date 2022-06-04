@@ -20,7 +20,7 @@ favicon: /favicon.ico
 # 公告
 notice:
   enable: true
-  content: 域名这几个月可能会有变动，但续期还是会续期的（ 
+  content: 感谢大家的支持，现在网站已经有<a href="/links">21个友链</a>了，阿里嘎多！
 
 # 赞赏码
 reward:
