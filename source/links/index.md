@@ -126,6 +126,12 @@ links:
     blog: 老陈の咸鱼日常
     desc: Life is fantanstic.
     color: "#62abde"
+  - url: https://blog.huankong.top
+    avatar: https://s.nmxc.ltd/sakurairo_vision/@2.5/basic/favicon.ico
+    name: 幻空
+    blog: 幻空的博客
+    desc: 幸运的人一生都在被童年治愈，不幸的人一生都在治愈童年。
+    color: "#FFB6C1"
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是不是应该要刷新下了
 ---
