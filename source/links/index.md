@@ -132,6 +132,12 @@ links:
     blog: 幻空的博客
     desc: 幸运的人一生都在被童年治愈，不幸的人一生都在治愈童年。
     color: "#FFB6C1"
+  - url: https://huige233.github.io/vuepress-theme/
+    avatar: https://pic.lijiakaijun.cyou/friends/huige233.jpg
+    name: huige233
+    blog: huige233's blog
+    desc: Everyone can be the light in the darkness.
+    color: "#CBEAFA"
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 如果你能看到这行字且没消失的话，或许得靠考虑一下是不是应该要刷新下了
 ---
