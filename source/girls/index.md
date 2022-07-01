@@ -17,7 +17,7 @@ girls:
     avatar: https://pic.lijiakaijun.cyou/tx/minnanoaqua.webp
     from: vtuber
     url: 
-    reason:
+    reason: 最喜欢阿夸啦！
   - name: 小东人鱼
     avatar: https://pic.lijiakaijun.cyou/tx/xiaodongrenyu.webp
     from: vtuber
