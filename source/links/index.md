@@ -32,7 +32,7 @@ links:
     color: "#8f8f8f"
   - url: https://spookerv5.github.io
     avatar: https://spookerv5.github.io/images/avatar.png
-    name: Lenger的后花园
+    name: Lenger
     blog: Lenger的后花园
     desc: 如果是你的话，一定没问题
     color: "#a67b5f"
@@ -44,19 +44,19 @@ links:
     color: "#6d7f88"
   - url: https://anillc.cn
     avatar: https://gravatar.loli.net/avatar/5df946d48b36e6f8061cdfe7ebcdf75c?s=512
-    name: Anillc’s blog
+    name: Anillc
     blog: Anillc’s blog
     desc: 最喜欢鹿乃啦XD
     color: "#f7d75e"
   - url: https://xiaolii.com
-    avatar: https://s.pc.qq.com/tousu/img/20210726/3644430_1627301389.jpg
-    name: 小理の小窝
+    avatar: https://source.xiaolii.com/Imagesource/icon.jpg
+    name: 理智君
     blog: 小理の小窝
-    desc: 生而为爷 我很抱歉
+    desc: 一个普通学生的普通生活
     color: "#f4ac94"
   - url: https://杏铃.top
     avatar: https://cdn.jsdelivr.net/gh/hshx123/picyes@master/2022/04/04/croped-image.jpg
-    name: 杏铃の小本
+    name: 杏铃
     blog: 杏铃の小本
     desc: 一份分享教程,游戏的礼物✧(≖ ◡ ≖✿)
     color: "#c16266"
@@ -68,7 +68,7 @@ links:
     color: "#69ffff"
   - url: https://kanokano.cn
     avatar: https://cdn.sep.cc/avatar/caa50e6e1d3538931cdbe4bf306f6c30
-    name: XM的小窝
+    name: XM
     blog: XM的小窝
     desc: 小鹿包，经常会开坑忘填（划掉）のblog
     color: "#e3a870"
@@ -80,7 +80,7 @@ links:
     color: "#495da2"
   - url: https://laple.me
     avatar: https://s1.ax1x.com/2020/04/12/GqhDs0.png
-    name: Lapis Apple的回收站
+    name: Lapis Apple
     blog: Lapis Apple的回收站
     desc: 一个回收站，里面住着Lapis Apple
     color: "#066EAC"
