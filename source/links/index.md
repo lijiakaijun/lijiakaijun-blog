@@ -7,7 +7,7 @@ keywords: 链接
 comments: true
 links:
   - url: https://blog.edenjohnson.cyou
-    avatar: https://cdn.jsdelivr.net/gh/MEMZSONBILI/PicGoBed@master/images/20200625174516.jpg
+    avatar: https://pic.lijiakaijun.cyou/friends/EdenJohnson.webp
     name: Eden Johnson
     blog: Eden瞎写小屋
     desc: 去探索，去发现
@@ -121,7 +121,7 @@ links:
     desc: 「世界に忘れられた」
     color: "#91807e"
   - url: https://www.fantanstic.top
-    avatar: https://pic.lijiakaijun.cyou/friends/laochen.jpg
+    avatar: https://pic.lijiakaijun.cyou/friends/laochen.webp
     name: 老陈
     blog: 老陈の咸鱼日常
     desc: Life is fantanstic.
@@ -133,7 +133,7 @@ links:
     desc: 幸运的人一生都在被童年治愈，不幸的人一生都在治愈童年。
     color: "#FFB6C1"
   - url: https://huige233.github.io/vuepress-theme/
-    avatar: https://pic.lijiakaijun.cyou/friends/huige233.jpg
+    avatar: https://pic.lijiakaijun.cyou/friends/huige233.webp
     name: huige233
     blog: huige233's blog
     desc: Everyone can be the light in the darkness.
